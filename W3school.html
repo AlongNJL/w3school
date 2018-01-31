@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body {
+				background-color: #fdfcf8;
+			}
+			
+			div {
+				/*border: 1px solid red;*/
+			}
+			
+			div#out {
+				margin: 0 auto;
+				padding: 0;
+				border: 0;
+				width: 1239px;
+				text-align: left;
+				background: transparent/*url(http://www.w3school.com.cn/ui2017/wrapper.png) top left repeat-y*/
+			}
+			
+			div#header {
+				width: 1210px;
+				height: 100px;
+			}
+			
+			div#header h1 {
+				margin: 0;
+				width: 500px;
+				height: 100px;
+				float: left;
+			}
+			
+			div#search {
+				width: 300px;
+				height: 100px;
+				right: 50px;
+				float: right;
+			}
+			
+			#search input.button {
+				padding: 0;
+				margin: 0;
+				background: #AE4141;
+				font: 12px Verdana, Arial, Helvetica, sans-serif;
+				color: #FFFFFF;
+				width: 30px;
+				height: 30px;
+			}
+			
+			#search input.box {
+				margin: 0;
+				width: 250px;
+				height: 28px;
+				background: #fdfdfd;
+				font: 12px Verdana, Arial, Helvetica, sans-serif;
+				border: 1px solid #ddd;
+			}
+			
+			div#seconder {
+				width: 1210px;
+				height: 50px;
+				background-color: gainsboro;
+
+			}
+			
+			div#seconder ul#menu {
+				height: 50px;
+				width: 1210px;
+				margin: 0px;
+				padding: 0px;
+				position: relative;
+			}
+			
+			div#seconder ul#menu a {
+				display: block;
+				height: 50px;
+				border-bottom: 0;
+			}
+			
+			div#seconder ul#menu li {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				position: absolute;
+				top: 0;
+			}
+			
+			#s1 {
+				left: 0;
+				width: 155px;
+			}
+			
+			#s2 {
+				left: 155px;
+				width: 157px;
+			}
+			
+			#s3 {
+				left: 312px;
+				width: 167px;
+			}
+			
+			#s4 {
+				left: 479px;
+				width: 158px;
+			}
+			
+			#s5 {
+				left: 637px;
+				width: 101px;
+			}
+			
+			#s6 {
+				left: 738px;
+				width: 185px;
+			}
+			
+			#s7 {
+				left: 923px;
+				width: 177px;
+			}
+			
+			div#container {
+				width: 1210px;
+				height: 1700px;
+				text-indent: 7px;
+			}
+			
+			div#left ul,
+			div#left li,
+			div#left h2,
+			div#right h2,
+			div#right ul,
+			div#right li {
+				list-style: none;
+				padding: 0;
+				margin: 10px auto;
+				font-size: 14px;
+			}
+			
+			div#left a,
+			div#right a {
+				display: block;
+				margin-top: 5px;
+				padding: 5px 0 5px 15px;
+				font-size: 12px;
+				border-bottom: 0px solid #ddd;
+				text-decoration: none;
+			}
+			
+			div#left,
+			div#right {
+				border-left: 1px solid gainsboro;
+				border-right: 1px solid gainsboro;
+				padding: 20px 0 10px 5px;
+				width: 170px;
+				height: 1670px;
+				float: left;
+			}
+			
+			div#middle {
+				width: 844px;
+				height: 1690px;
+				float: left;
+			}
+			
+			.idea {
+				padding: 0;
+				padding-bottom: 30px;
+				min-height: 118px;
+				border-bottom: 1px solid ghostwhite;/*????*/
+			}
+			
+			div#footer {
+				width: 1210px;
+				height: 100px;
+				background-color: gainsboro;
+				padding-top: 10px;
+			}
+			div#footer #p1
+			{
+				font-size:12px;
+				color:#777777;
+				text-align:center;
+				background: transparent url(http://www.w3school.com.cn/ui2017/alert.png) no-repeat;
+				background-position:235px 0px;
+			}
+	
+			div#footer #p2
+			{
+				margin: 0;
+				font-size:14px;
+				text-align:center;
+				color:#777777;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="out">
+			<div id="header">
+				<h1>
+					<a href="http://www.w3school.com.cn/index.html" style="width: 500px; height: 100px;">
+						W3school
+					</a>
+				</h1>
+				<div id="search">
+					<form action="http://www.google.com.hk/search" method="post" style="width: 300px; height: 65;margin-top: 35px;">
+						<input type="text" name="" class="box" value="" />
+						<input type="submit" value="GO" class="button" />
+					</form>
+				</div>
+			</div>
+			<div id="seconder">
+				<ul id="menu">
+					<li id="s1">
+						<a href="">HTML/CSS</a>
+					</li>
+					<li id="s2">
+						<a href="">JavaScript</a>
+					</li>
+					<li id="s3">
+						<a href="">Serve Side</a>
+					</li>
+					<li id="s4">
+						<a href="">ASP.NET</a>
+					</li>
+					<li id="s5">
+						<a href="">XML</a>
+					</li>
+					<li id="s6">
+						<a href="">Web Services</a>
+					</li>
+					<li id="s7">
+						<a href="">Web Building</a>
+					</li>
+				</ul>
+			</div>
+			<div id="container">
+				<div id="left">
+					<h2>HTML教程</h2>
+					<ul>
+						<li>
+							<a href="">HTML</a>
+							<a href="">HTM5</a>
+							<a href="">XHTML</a>
+							<a href="">CSS</a>
+							<a href="">CSS3</a>
+							<a href="">TCP/IP</a>
+						</li>
+					</ul>
+					<h2>脚本浏览器</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+							<a href="">7</a>
+							<a href="">8</a>
+							<a href="">9</a>
+						</li>
+					</ul>
+					<h2>XML教程</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+						</li>
+					</ul>
+					<h2>Web Servies</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+							<a href="">7</a>
+							<a href="">8</a>
+							<a href="">9</a>
+							<a href="">10</a>
+							<a href="">11</a>
+							<a href="">12</a>
+							<a href="">13</a>
+							<a href="">14</a>
+						</li>
+					</ul>
+					<h2>.NET</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+						</li>
+					</ul>
+					<h2>建站手册</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+						</li>
+					</ul>
+					<h2><a href="" style="font-size: 14px; padding: 0px;">关于 W3School</a></h2>
+					<h2><a href="" style="font-size: 14px; padding: 0px;">帮助 W3School</a></h2>
+				</div>
+				<div id="middle">
+					<div class="idea" id="i1"></div>
+					<div class="idea" id="i2"></div>
+					<div class="idea" id="i3"></div>
+					<div class="idea" id="i4"></div>
+					<div class="idea" id="i5"></div>
+					<div class="idea" id="i6"></div>
+					<div class="idea" id="i7"></div>
+					<div id="i8"></div>
+					<div id="i9"></div>
+					<div id="i10"></div>
+				</div>
+				<div id="right">
+					<h2>参考手册</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+							<a href="">7</a>
+							<a href="">8</a>
+							<a href="">9</a>
+							<a href="">10</a>
+							<a href="">11</a>
+							<a href="">12</a>
+							<a href="">13</a>
+							<a href="">14</a>
+							<a href="">15</a>
+							<a href="">16</a>
+							<a href="">17</a>
+							<a href="">18</a>
+						</li>
+					</ul>
+
+					<h2>字符集</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+						</li>
+					</ul>
+					<h2>案例/实例</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+							<a href="">7</a>
+							<a href="">8</a>
+							<a href="">9</a>
+							<a href="">10</a>
+							<a href="">11</a>
+							<a href="">12</a>
+							<a href="">13</a>
+							<a href="">14</a>
+							<a href="">15</a>
+							<a href="">16</a>
+						</li>
+					</ul>
+					<h2>代码验证</h2>
+					<ul>
+						<li>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer">
+				 <p id="p1">
+						W3School 简体中文版提供的内容仅用于培训和测试，不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。
+				 </p><br />
+				 <p id="p2">
+				 	<a href="">使用条款</a>和
+				 	<a href="">隐私条款</a>	。版权所有，保留一切权利。	赞助商：
+				 	<a href="">上海赢科投资有限公司</a>。
+				 	<a href="">蒙ICP备06004630号</a>
+				 </p>
+			</div>
+		</div>
+
+	</body>
+
+</html>
